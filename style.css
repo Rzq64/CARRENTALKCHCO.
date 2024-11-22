@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #1e1e1e, #3a3a3a); /* Metallic gradient */
+    color: #f0f0f0; /* Light text for contrast */
+}
+
+/* Header Style */
+header {
+    background: #ff0000; /* Vibrant red for a sporty look */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Navigation Style */
+nav {
+    background: #000000; /* Sleek black for a modern feel */
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #ff0000; /* Red highlight for hover */
+}
+
+/* Footer Style */
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+    border-top: 3px solid #ff0000; /* Red accent for separation */
+}
+
+/* Content Styling */
+article {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1); /* Transparent overlay for focus */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+/* Bright Colored Links for Car Names */
+article ul li a {
+    color: #00ffcc; /* Bright teal for high visibility */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+article ul li a:hover {
+    color: #ffcc00; /* Bright yellow for hover */
+}
+
+/* Bright Colored Links for "Published Website URL" */
+article p a {
+    color: #ffcc00; /* Bright yellow */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+article p a:hover {
+    color: #ff0000; /* Red on hover */
+}
+
+/* Contact Information Styling */
+article p strong {
+    color: #00ffcc; /* Bright teal for the phone numbers */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}

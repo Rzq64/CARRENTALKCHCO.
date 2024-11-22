@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Car Rental Kuching Co.</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h2>We Value Your Feedback</h2>
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date:</label></td>
+                        <td><input type="date" id="date" name="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="rating">Rating:</label></td>
+                        <td>
+                            <input type="radio" id="good" name="rating" value="Good">
+                            <label for="good">Good</label>
+                            <input type="radio" id="average" name="rating" value="Average">
+                            <label for="average">Average</label>
+                            <input type="radio" id="poor" name="rating" value="Poor">
+                            <label for="poor">Poor</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="comments">Comments:</label></td>
+                        <td><textarea id="comments" name="comments" rows="4"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </article>
+    <footer>
+        <p>&copy; Group_14 | Last updated: November 21, 2024</p>
+    </footer>
+</body>
+</html>
